@@ -1,0 +1,64 @@
+@media (max-width: 1023px) {
+    /* header */
+
+    .navbar-custom {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .nav-links {
+        margin-left: auto !important;
+    }
+
+    ul li {
+        padding: 0 0px !important;
+    }
+
+    .size-6 {
+        display: none;
+    }
+
+    .contenedor-login {
+        width: 90%;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+
+    .button-login,
+    .input-contenedor {
+        max-width: 250px;
+    }
+
+    .contenedor-items {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 0px !important;
+    }
+
+    .producto-vista-celular {
+        opacity: 1 !important;
+    }
+
+    .producto p {
+        opacity: 0;
+    }
+}
+
+/* medida para resulucion monitor */
+@media (max-width: 1366px) {
+    .contenedor-login {
+        width: 90%;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .button-login,
+    .input-contenedor {
+        max-width: 250px;
+    }
+}
