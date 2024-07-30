@@ -1,15 +1,19 @@
+@mixin backgrounds{
+    background-image: linear-gradient($color-negro-gradial, $color-negro-gradial), url(../img/lineas-neon-brillando-abstracto_7680x4320_xtrafondos.com.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Reset de página y estilo del body*/
 body {
+    @include backgrounds;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     text-decoration: none;
     list-style: none;
-    background-image: linear-gradient($color-negro-gradial, $color-negro-gradial), url(../img/lineas-neon-brillando-abstracto_7680x4320_xtrafondos.com.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     z-index: -1;
     position: relative;
     overflow-x: hidden;

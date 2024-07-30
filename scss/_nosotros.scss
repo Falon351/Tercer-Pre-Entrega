@@ -17,10 +17,10 @@
 
 .titulo-nosotros {
     font-size: 2rem;
-    color: #cfc7c7;
+    color: $color-blanco;
     text-align: center;
     margin-bottom: 30px;
-    text-shadow: 0 0 10px rgba(90, 66, 92, 0.925);
+    text-shadow: 0 0 20px rgba(234, 0, 255, 0.925);
     filter: brightness(1.2);
 }
 
@@ -31,6 +31,7 @@
         margin-bottom: 20px;
         text-align: justify;
         font-family: "Roboto", sans-serif;
+        color: $color-blanco;
     }
 
     ul {
@@ -49,6 +50,7 @@
             padding: 10px 15px;
             box-shadow: 0 0 10px rgb(230, 7, 92);
             width: 80%;
+            color: $color-blanco;
         }
     }
 }

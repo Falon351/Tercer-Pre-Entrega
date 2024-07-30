@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 5%;
-    box-shadow: 0 2px 15px rgb(0, 0, 0);
+    box-shadow: 0 2px 15px $color-negro;
     font-weight: bold;
     position: fixed;
     top: 0;
@@ -47,15 +47,15 @@
     }
 
     a {
-        color: white;
+        color: $color-blanco;
         text-decoration: none;
         transition: color 0.3s ease;
     }
 }
 
 .texto-nav:hover {
-    color: #ff09ca;
-    text-shadow: 0 0 15px rgba(183, 0, 255, 0.8), 0 0 20px rgba(183, 0, 255, 0.6), 0 0 25px rgba(183, 0, 255, 0.4);
+    color: $color-violeta;
+    text-shadow: 0 0 15px rgba(255, 0, 191, 0.8), 0 0 15px rgba(183, 0, 255, 0.6), 0 0 15px rgba(183, 0, 255, 0.4);
 }
 
 /* Estilos para el carrito*/
@@ -63,5 +63,5 @@
 .size-6 {
     width: 40px;
     height: 70px;
-    color: #ffffff;
+    color: $color-blanco;
 }
