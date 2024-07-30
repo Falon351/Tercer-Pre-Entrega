@@ -1,0 +1,40 @@
+/* Productos */
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    z-index: 1;
+}
+
+.producto-vista-celular {
+    opacity: 0;
+}
+
+.producto {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 50px rgb(32, 243, 4);
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+    }
+}

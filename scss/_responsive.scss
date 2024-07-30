@@ -1,3 +1,5 @@
+/* medida para celulares */
+
 @media (max-width: 1023px) {
     /* header */
 
@@ -47,4 +49,18 @@
     }
 }
 
+/* medida para resulucion monitor */
+@media (max-width: 1366px) {
+    .contenedor-login {
+        width: 90%;
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
 
+    .button-login,
+    .input-contenedor {
+        max-width: 250px;
+    }
+}

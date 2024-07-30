@@ -1,0 +1,27 @@
+/* Títulos y párrafos */
+
+h1 {
+    color: $color-blanco;
+    text-align: center;
+    padding-top: 120px;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulo-home {
+    color: rgb(215, 0, 243);
+    text-align: center;
+    padding-left: 30px;
+    text-shadow: 0 0 25px rgba(252, 11, 11, 0.925);
+    filter: brightness(1.5);
+    font-size: 2.5rem;
+}
+
+.titulo-minitienda {
+    text-align: center;
+    font-size: 2.2rem;
+    color: rgb(253, 11, 63);
+    padding-left: 30px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.925);
+    filter: brightness(1.5);
+    margin-top: 20px;
+}

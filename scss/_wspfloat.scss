@@ -1,0 +1,16 @@
+/* Icono de WhatsApp flotante */
+
+.wspfloat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+
+    img {
+        width: 45px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        background-color: rgb(61, 133, 55);
+    }
+}
