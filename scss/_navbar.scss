@@ -25,11 +25,16 @@
 .logo {
     width: 100px;
     height: auto;
-    filter: drop-shadow(0 2px 4px rgba(124, 9, 255, 0.445));
-    transition: transform 0.3s ease;
+    // filter: drop-shadow(0 2px 4px rgba(181, 130, 240, 0.493));
+    // transition: transform 1s ease;
+    transition: 1s;
+    display: flex;
+    transform: scale(1.2);
 
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.4);
+        filter: drop-shadow(0 2px 4px rgba(11, 217, 224, 0.493));
+        transition: 0.4s ease;
     }
 }
 
@@ -55,7 +60,7 @@
 
 .texto-nav:hover {
     color: $color-violeta;
-    text-shadow: 0 0 15px rgba(255, 0, 191, 0.8), 0 0 15px rgba(183, 0, 255, 0.6), 0 0 15px rgba(183, 0, 255, 0.4);
+    // text-shadow: 0 0 15px rgba(255, 3, 179, 0.993), 0 0 15px rgba(247, 10, 196, 0.74), 0 0 15px rgba(255, 3, 179, 0.288);
 }
 
 /* Estilos para el carrito*/

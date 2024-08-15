@@ -3,25 +3,39 @@
 h1 {
     color: $color-blanco;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 140px;
     font-family: "Roboto", sans-serif;
+    margin-top: 120px;
 }
 
 .titulo-home {
-    color: rgb(215, 0, 243);
+    color: rgb(112, 113, 173);
     text-align: center;
     padding-left: 30px;
-    text-shadow: 0 0 25px rgba(252, 11, 11, 0.925);
-    filter: brightness(1.5);
+    // text-shadow: 0 0 25px rgba(252, 11, 11, 0.925);
+    filter: brightness(1.2);
     font-size: 2.5rem;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.subtitulo-home{
+    color: rgb(50, 54, 90);
+    text-align: center;
+    padding-left: 30px;
+    // text-shadow: 0 0 25px rgba(252, 11, 11, 0.925);
+    filter: brightness(1.5);
+    font-size: 1.4rem;
+    margin-top: -10px;
+    font-family: "Russo One", sans-serif;
 }
 
 .titulo-minitienda {
     text-align: center;
     font-size: 2.2rem;
-    color: rgb(253, 11, 63);
+    color: rgb(89, 93, 148);
     padding-left: 30px;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.925);
+    // text-shadow: 0 0 20px rgba(0, 0, 0, 0.925);
     filter: brightness(1.5);
     margin-top: 20px;
+    font-family: "Bungee", sans-serif;
 }

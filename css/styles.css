@@ -1,8 +1,13 @@
 @charset "UTF-8";
 /* Reset de página y estilo del body*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Russo+One&display=swap");
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/lineas-neon-brillando-abstracto_7680x4320_xtrafondos.com.jpg);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(170deg, rgb(2, 0, 36) 24%, rgb(20, 20, 70) 50%, rgb(5, 5, 5) 84%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -96,11 +101,14 @@ body {
 .logo {
   width: 100px;
   height: auto;
-  filter: drop-shadow(0 2px 4px rgba(124, 9, 255, 0.445));
-  transition: transform 0.3s ease;
+  transition: 1s;
+  display: flex;
+  transform: scale(1.2);
 }
 .logo:hover {
-  transform: scale(1.1);
+  transform: scale(1.4);
+  filter: drop-shadow(0 2px 4px rgba(11, 217, 224, 0.493));
+  transition: 0.4s ease;
 }
 
 /* Estilos para la lista de navegación */
@@ -121,8 +129,7 @@ body {
 }
 
 .texto-nav:hover {
-  color: #cc00ff;
-  text-shadow: 0 0 15px rgba(255, 0, 191, 0.8), 0 0 15px rgba(183, 0, 255, 0.6), 0 0 15px rgba(183, 0, 255, 0.4);
+  color: #ff009d;
 }
 
 /* Estilos para el carrito*/
@@ -136,27 +143,38 @@ body {
 h1 {
   color: #fafafa;
   text-align: center;
-  padding-top: 120px;
+  padding-top: 140px;
   font-family: "Roboto", sans-serif;
+  margin-top: 120px;
 }
 
 .titulo-home {
-  color: rgb(215, 0, 243);
+  color: rgb(112, 113, 173);
   text-align: center;
   padding-left: 30px;
-  text-shadow: 0 0 25px rgba(252, 11, 11, 0.925);
-  filter: brightness(1.5);
+  filter: brightness(1.2);
   font-size: 2.5rem;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.subtitulo-home {
+  color: rgb(50, 54, 90);
+  text-align: center;
+  padding-left: 30px;
+  filter: brightness(1.5);
+  font-size: 1.4rem;
+  margin-top: -10px;
+  font-family: "Russo One", sans-serif;
 }
 
 .titulo-minitienda {
   text-align: center;
   font-size: 2.2rem;
-  color: rgb(253, 11, 63);
+  color: rgb(89, 93, 148);
   padding-left: 30px;
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.925);
   filter: brightness(1.5);
   margin-top: 20px;
+  font-family: "Bungee", sans-serif;
 }
 
 /* Icono de WhatsApp flotante */
@@ -235,7 +253,7 @@ h1 {
 }
 .producto:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 50px rgb(32, 243, 4);
+  box-shadow: 0 0 10px rgb(221, 238, 219);
 }
 .producto img {
   max-width: 100%;
@@ -289,8 +307,9 @@ footer {
   width: 70%;
   height: 190;
   margin: 150px auto 20px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.904)), url(../img/photocall-juegos-neon-dibujado-mano_23-2149860761.avif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgb(0, 0, 0)), url(../img/photocall-juegos-neon-dibujado-mano_23-2149860761.avif);
   background-size: cover;
+  background-position: center;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgb(230, 7, 163);
@@ -308,17 +327,14 @@ footer {
   padding-left: 30px;
   text-shadow: 0 0 15px rgba(90, 66, 92, 0.925);
   filter: brightness(1.2);
-  margin-top: 1px;
+  margin-top: -80px;
 }
 
 .mapa {
-  margin-top: 0px;
+  margin-top: -40px;
   height: 400px;
   width: 70%;
-  margin: 0 auto;
-  box-shadow: 0 0 15px rgb(7, 197, 230);
-  border: 1px solid rgb(5, 168, 243);
-  border-radius: 10px;
+  margin: auto;
   margin-bottom: 30px;
 }
 
@@ -341,11 +357,13 @@ footer {
   width: 80%;
   color: #fafafa;
 }
-.info-sucursales > .mapa iframe {
+.info-sucursales .mapa iframe {
   width: 100%;
   height: 100%;
-  border: none;
+  box-shadow: 0 0 15px rgb(7, 197, 230);
+  border: 1px solid rgb(5, 168, 243);
   border-radius: 10px;
+  margin-top: -40px;
 }
 
 /* login */
@@ -460,7 +478,7 @@ input:focus ~ label, input:valid ~ label {
 }
 .button-login:hover {
   opacity: 0.9;
-  background-color: #cc00ff;
+  background-color: #ff009d;
   color: #fafafa;
 }
 
@@ -612,8 +630,8 @@ input:focus ~ label, input:valid ~ label {
   transition: 0.6s;
 }
 .contenedor-tienda .contenedor-items .item .boton-item:hover {
-  box-shadow: 0 0 10px rgb(51, 255, 0);
-  background-color: #b700ff;
+  box-shadow: 0 0 5px rgb(245, 245, 245);
+  background-color: #05a30d;
 }
 
 /* boton tienda */
@@ -655,6 +673,7 @@ input:focus ~ label, input:valid ~ label {
   color: #fafafa;
   text-align: center;
   margin-bottom: 30px;
+  margin-top: -90px;
   text-shadow: 0 0 20px rgba(234, 0, 255, 0.925);
   filter: brightness(1.2);
 }
