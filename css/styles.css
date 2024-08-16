@@ -270,18 +270,25 @@ h1 {
 footer {
   background-color: rgba(253, 253, 253, 0.137254902);
   color: black;
-  text-align: center;
   padding: 20px 0;
   position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  font-style: italic;
 }
 
 .derechos-footer {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  text-align: center;
+  font-style: italic;
+}
+
+.metodos-pago {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: -30px;
 }
 
 .redes-sociales {
@@ -334,7 +341,7 @@ footer {
   margin-top: -40px;
   height: 400px;
   width: 70%;
-  margin: auto;
+  margin: 0px auto;
   margin-bottom: 30px;
 }
 
